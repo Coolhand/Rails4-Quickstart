@@ -1,0 +1,11 @@
+== README
+
+This is a Rails 4 MongoDB quickstart for use on Openshift. This particular quickstart uses the Ruby 1.9 cartridge as well as the Mongodb-2.4 cartrdige. You'll find that all of the monogid.yaml settings are taken care of for you, although I would suggest changing the database name for your test and dev environments to match that of your application. 
+
+= Running On Openshift
+First you need to sign up for an Openshift account here: https://www.openshift.com/
+
+Then you can create your application by simply running:
+=begin
+rhc app create Rails4 ruby-1.9 mongodb-2.4 --from-code:https://github.com/openshift-quickstart/Rails4-MongoDB
+=end
