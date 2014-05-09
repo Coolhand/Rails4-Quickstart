@@ -7,5 +7,5 @@ First you need to sign up for an Openshift account here: https://www.openshift.c
 
 Then you can create your application by simply running:
 =begin
-rhc app create Rails4 ruby-1.9 mongodb-2.4 --from-code:https://github.com/openshift-quickstart/Rails4-MongoDB
+rhc app create Rails4 ruby-1.9 mongodb-2.4 --from-code:https://github.com/Coolhand/Rails4-Quickstart
 =end
